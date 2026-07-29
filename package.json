@@ -1,0 +1,14 @@
+{
+  "name": "mini-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini E-Commerce full-stack project (client + server)",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev"
+  },
+  "license": "MIT"
+}
